@@ -29,7 +29,7 @@ imported_inputs = combined[(combined['output product']==combined_product)&(combi
 
 st.subheader('Summary text')
 
-st.write('The total production of {} required £{:,}m of goods and services to produce in 2019.'.format(combined_product,round(total_inputs,1)))
+st.write('The total production of {} required £{:,}m of goods and services to produce in 2020.'.format(combined_product,round(total_inputs,1)))
             
 # Total inputs
 
